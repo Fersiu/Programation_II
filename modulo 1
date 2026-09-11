@@ -3,4 +3,23 @@ telefono = []
 mail = []
 direccion = []
 
+while True: 
+    menu = """ 
+    1. agregar un contacto 
+    2. buscar un contacto 
+    3. eliminar un contacto
+    4. salir
+    """
+    opcion_elegida = int(input(menu))
+    if opcion_elegida == 1:
+        pass
+    elif opcion_elegida ==2: 
+        pass
+    elif opcion_elegida ==3: 
+        pass
+    elif opcion_elegida ==4:
+        print("hasta la vista baby")
+        break
+    else: 
+        print("opcion invalida")
 
