@@ -5,12 +5,12 @@ def mostrar_bienvenida():
 def saludar(nombre:str):
     print(f"Hola, {nombre}!")
 
-saludar("Nicolas")
+saludar("Lia")
 
 def presentar(nombre:str, edad:int, ciudad:str="Barranquilla"):
     print(f"{nombre}, {edad} años, de {ciudad}")
 
-presentar("Nicolas",21,"Barranquilla") 
+presentar("Lia",22,"Barranquilla") 
 def suma(a,b):
     result=a + b
     return result
